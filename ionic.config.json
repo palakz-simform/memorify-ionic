@@ -1,0 +1,7 @@
+{
+  "name": "Memoirify",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
