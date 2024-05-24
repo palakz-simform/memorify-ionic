@@ -19,7 +19,7 @@ const createMap = async () => {
 
     const newMap = await GoogleMap.create({
         id: 'my-map', // Unique identifier for this map instance
-        element: mapRef, // reference to the capacitor-google-map element
+        element: myDiv.value, // reference to the capacitor-google-map element
         apiKey: import.meta.env.VITE_API_KEY, // Your Google Maps API Key
         config: {
             center: {
